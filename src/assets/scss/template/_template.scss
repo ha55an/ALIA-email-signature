@@ -1,0 +1,107 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+
+// Body Styles 
+body,
+html,
+.body {
+  background: #ffffff !important;
+}
+
+.container.header {
+  background: #f3f3f3;
+}
+
+.body-drip {
+  border-top: 8px solid #663399;
+}
+
+// Full Width Headers
+.header {
+  background: #8a8a8a;
+}
+
+.header .columns {
+  padding-bottom: 0;
+}
+
+.header p {
+  color: #fff;
+  padding-top: 15px;
+}
+
+.header .wrapper-inner {
+  padding: 20px;
+}
+
+.header .container {
+  background: transparent;
+}
+
+// Social Media
+table.button.facebook table td {
+  background: #3B5998 !important;
+  border-color: #3B5998;
+}
+
+table.button.twitter table td {
+  background: #1daced !important;
+  border-color: #1daced;
+}
+
+table.button.google table td {
+  background: #DB4A39 !important;
+  border-color: #DB4A39;
+}
+
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+
+//Logo
+img.float-center {
+  max-width: 400px; 
+  max-height: 30px;
+}
+
+// Typography
+.pipe {
+  color: $alia-color;
+  word-wrap: normal;
+  font-weight: bold;
+}
+
+.accolades {
+  font-size: smaller;
+}
+
+.tagline,
+.cities {
+  font-size: small;
+}
+
+.tagline span {
+  font-weight: bold;
+  display: block;
+  margin-top: 1%;
+}
+
+.disclaimer {
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  hyphens: none;
+  font-size: xx-small;
+  font-style: italic;
+  color: $nearly-black;
+}
+
+
+// Divider Background
+.divider {
+  background-image: url("../../assets/img/dividerBG2-AG240225.png");
+  background-repeat: repeat-x;
+  display: block;
+  height: 12px;
+}
